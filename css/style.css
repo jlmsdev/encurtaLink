@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style: none;
+}
+
+.container-header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.header-content {
+    width: 100%;
+    max-width: 1200px;
+
+
+    display: flex;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.menu-conteudo {
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+}
+
+.menu-conteudo li a {
+    color: #1D2730;
+    font-size: 1.2rem;
+    font-weight: 400;
+    user-select: none;
+}
+
+.container-info {
+    width: 100%;
+    height: 75vh;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.info-content {
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.info-texto h1 {
+    color: #1D2730;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    margin-bottom: 1rem;
+}
+
+.info-texto p {
+    color: #1D2730;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.info-texto button {
+    background-color: #07C9C9;
+    color: #FFFFFF;
+    width: 280px;
+    height: 45px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 700;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.info-texto button:hover {
+    transform: scale(1.2);
+    transition: all .5s;
+}
+
+.container-url {
+    width: 50vw;
+    background-color: #07C9C9;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    margin: -60px auto;
+    position: relative;
+    
+
+}
+
+.container-url input {
+    width: 70%;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 4px;
+    padding: 1rem;
+    font-size: 1rem;
+    outline: none;
+}
+
+.container-url button {
+    width: 20%;
+    background-color: #1D2730;
+    border-radius: 4px;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container-plano {
+    background-color: #F0F1F6;
+    width: 100%;
+    padding-bottom: 7rem;
+}
+
+.content-plano {
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    margin: 0 auto;
+}
+
+.content-plano h1 {
+    width: 500px;
+    text-align: center;
+    margin: 10rem  auto 5rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-cards .card {
+
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-texto h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.container-texto p {
+    margin: 1rem 0;
+    width: 350px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.container-start {
+    width: 100%;
+    margin: 10rem auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comece-agora {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.comece-agora h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.comece-agora p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.comece-agora button {
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 45px;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    background-color: #07C9C9;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-perguntas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-perguntas h2 {
+    font-size: 2.5rem;
+}
+
+.content-perguntas {
+    margin-top: 2rem ;
+}
+
+.content-perguntas details {
+    width: 650px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.content-perguntas details summary {
+    padding: 0 1rem;
+    height: 45px;
+    line-height: 45px;
+    background-color: #E5E5E5;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #07C9C9;
+}
+
+
+@media (min-width: 320px ) and (max-width: 1263px ) {
+    
+    .container-header {
+        margin: 0 auto;
+    }
+
+    .info-texto h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        text-align: center
+        ;
+    }
+
+    .info-texto p {
+        font-size: 1.2rem;
+        padding: 0 2rem;
+        text-align: center;
+    }
+
+    .info-texto button {
+        margin: auto;
+    }
+
+    .container-url {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-url input,
+    .container-url button {
+        width: 70%;
+        border: 0;
+    }
+
+    .container-plano h1 {
+        font-size: 1.5rem;
+    }
+
+    .container-texto h2 {
+        text-align: center;
+    }
+
+    .container-texto p {
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 24px;
+    }
+
+    .container-start {
+        margin: auto;
+        padding-top: 3rem;
+    }
+
+    .container-start h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .container-start p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+
+
+
+    .header-content img {
+        width: 90%;
+    }
+
+    .info-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-info img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .container-info .info-imagem {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+   .content-perguntas {
+        width: 100%;
+        margin: 0 auto;
+   }
+
+   .content-perguntas details,
+   .content-perguntas summary {
+        width: 100%;
+        height: auto;
+    }
+
+
+    
+
+    .container-perguntas h2 {
+        margin-bottom: 2rem;
+    }
+
+    .content-plano h1 {
+        width: 100%;
+    }
+}
+
